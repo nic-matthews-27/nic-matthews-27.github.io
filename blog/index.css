@@ -1,0 +1,59 @@
+body {
+    background-color: #feeeda
+}
+
+
+h1 {
+    font-family: 'Arvo', serif;
+    color: #fcb796;
+    f
+}
+
+#padding {
+    background-color: #646bd9 ;
+    padding-bottom: 2rem;
+    padding-top: 2rem; 
+    padding-right: 5rem;
+    padding-left: 7rem;
+    margin-right: 25rem;
+    margin-left: 20rem      
+}
+.paragraph
+{
+  background-color: #646bd9;    
+  color: #fcb796;
+  margin-right: 25rem;
+  margin-left: 22rem;
+  padding: 10px, 10px, 10px, 10px;
+border-color: #fcb796;
+border-width: 0.5rem;
+}
+
+.border {
+    border-color: #fcb796;
+    border-width: 1rem;
+    border-style: outset
+}
+p {
+    color: #646bd9
+}
+.smaller-image{
+    width: 30rem;
+
+}
+#width-of-text {
+    width: 40rem;
+}
+.text-position {
+    margin-left: 33rem;
+    width: 20rem
+
+}
+div {
+    background-color: #646bd9   
+}
+.KP {
+    color: #fcb796  
+}
+    
+
