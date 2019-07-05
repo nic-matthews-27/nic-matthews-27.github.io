@@ -1,16 +1,84 @@
-p {
-    color: gold;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px; 
-    border-width: 2rem; 
-    border-color: crimson;
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: #2e3645;
+    border: #ef5939;
     border-style: solid;
-    background-color: blue;
-    width: 4rem 
-}
+    border-width: 3px
+ }
+ .box{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+        background:#001e2d;
+        box-sizing: border-box;
+        box-shadow: 0 20px 50px rgba(0,0,0,.7);
+        border:2px solid rgba(0,0,0,.5);
+ }
+ .box .content{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    border:2px solid #2d5d7c;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    text-align: center;
+
+ }
+ .box .content h1{
+    color: #f1e5d6;
+    font-size: 30px;
+    margin: 0 0 10px;
+    padding: 0;
+ }
+ .box .content p{
+    color: #fff;
+ }
+ .box svg,
+ .box svg rect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+ }
+ .box svg rect{
+    stroke: #ef5939;
+    stroke-width:4;
+    stroke-dasharray: 397;
+    animation: ani 3s linear infinite;
+ }
+ @keyframes ani{
+    0%{
+        stroke-dashoffset: 800;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+ }
+ h1 {
+     color:#ef5939;
+     text-align: center;
+     font-family: 'DM Serif Display', serif;
+     text-decoration: underline
+ }
+ h3{
+     width: 75%;
+     text-align:center;
+     left: 50%;
+     transform: translate(15%,15%); 
+     color: #ef5939;    
+     background:#001e2d;
+     box-sizing: border-box;
+     box-shadow: 0 20px 50px (0,0,0,.7);
+     border:2px #ef5939 solid (0,0,0,.5);
+     padding: 10px
+ }
+ 
