@@ -1,3 +1,16 @@
+html{
+   background: url(https://images.unsplash.com/photo-1509914398892-963f53e6e2f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed;
+   background-size: cover;
+   
+   
+
+
+}
+
+
+
+
+
 body{
    margin: 0;
    padding: 0;
@@ -5,10 +18,10 @@ body{
    width: 100%;
 }
 section{
-   width: 100%;
+   /* width: 100%;
    height: 100vh;
    background:url(https://images.unsplash.com/photo-1509914398892-963f53e6e2f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-   background-size: cover;
+   background-size: cover; */
 }
 .sprint1{
    width: 101.1%;
@@ -41,6 +54,7 @@ border-style: solid;
 border-color: #ed6767;
 border-width: 3px;
 }
+
 nav{
    position: relative;
    float: right;
@@ -53,6 +67,7 @@ nav ul{
 nav ul li{
    list-style: none;
 }
+
 nav ul li a{
    display: block;
    color:#000;
@@ -76,15 +91,21 @@ nav ul li ul{
    visibility: hidden;
    transition: .5s;
    transform: translateY(40px);
+   z-index: 1;
+   
 }
 nav ul li:hover ul{
    opacity: 1;
    visibility: visible;
    transform: translateY(0px);
+   display: inline-block;
+   position: absolute;
+
 }
 nav ul li ul a{
    padding: 10px;
 }
+
 .container{
  text-align: center;
  position: absolute;
@@ -249,7 +270,7 @@ a:link{
       box-shadow: inset 1000px 1000px 200px rgba(0,0,0,.2);
       width: 48%;
       height: 250px;
-      background: url(https://images.unsplash.com/photo-1484069560501-87d72b0c3669?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+      background-image: url(./images/cityatnight.jpeg);
       background-position: center;
       background-size: cover;
       float: left;
@@ -319,4 +340,70 @@ a:link{
    padding:0;
    width:80%;
    
+}
+.box1 {
+   position: absolute;
+   background-color: white;
+   color: black;
+   top: 15%;
+   width: 50%;
+   left: 2%;
+   padding: 8px
+
+}
+.align {
+   text-align: center;
+
+}
+
+.control {
+   top: 40%;
+   position: absolute;
+   background-color: white;
+   color: black;
+   width: 50%;
+   right: 2%;
+   padding: 8px;
+   border: #ed6767;
+   border-width: 3px;
+   border-style: solid;
+}
+
+.DOM {
+   top: 85%;
+   position: absolute;
+   background-color: white;
+   color: black;
+   width: 50%;
+   left: 2%;
+   padding: 8px;
+   border: #ed6767;
+   border-width: 3px;
+   border-style: solid;
+}
+
+.array {
+   position: absolute;
+   background-color: white;
+   color: black;
+   width: 50%;
+   right: 2%;
+   padding: 8px;
+   border: #ed6767;
+   border-width: 3px;
+   border-style: solid;
+   top: 145%;
+}
+.functions {
+   position: absolute;
+   background-color: white;
+   color: black;
+   width: 50%;
+   left: 2%;
+   padding: 8px;
+   border: #ed6767;
+   border-width: 3px;
+   border-style: solid;
+   top: 168%;
+
 }
