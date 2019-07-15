@@ -421,3 +421,37 @@ a .white a {
 span .sprint3id{
    text-decoration-color: #f2f2e6
 }
+.Yeahbuddy {
+   position: absolute;
+   top: 28%;
+   padding: 15px;
+   background-color: #fff;
+   border-color: #ed6767;
+   border-width: 3px;
+   border-style: solid;
+   width: 70%;
+
+}
+.header2 {
+   position: absolute;
+   top: 10%;
+   text-align: center;
+   left: 30%
+
+}
+.textdec { 
+   text-decoration: underline; 
+   text-decoration-color: #ed6767  
+}
+
+#growth { position: absolute;
+   top: 85%;
+   padding: 15px;
+   background-color: #fff;
+   border-color: #ed6767;
+   border-width: 3px;
+   border-style: solid;
+   width: 70%;
+}
+
+}
